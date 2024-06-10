@@ -1,5 +1,5 @@
 <img src="https://github.com/abraao69/Testinho-API-Node-Express-Myql-Websocket/blob/main/logo.png" alt="Logo" width="150" height="100">
-<img src="https://github.com/abraao69/ApiRestful-teste/blob/main/testinho/CRUD-FullStack-main/frontend/src/img/fotocrud.jpg" alt="Descrição da imagem">
+<img src="https://github.com/abraao69/Testinho-API-Node-Express-Myql-Websocket/blob/main/testinho/frontend/src/img/fotocrud.jpg" alt="Descrição da imagem">
 
 ## Criador do projeto: 
 
