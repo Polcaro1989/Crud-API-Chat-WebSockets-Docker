@@ -156,7 +156,7 @@ docker-compose down
 
 ## Para fazer os testes automatizados entre no diretorio :/ApiRestful-teste/testinho/api você pode testar as rotas utilizando os comandos:
 
-## Aviso: Todas as rotas foram testatas e estão em pleno funcionamento.
+## Aviso: Todas as rotas foram testadas com Jest e estão em pleno funcionamento.
 
 1-
 ```
@@ -182,7 +182,6 @@ jest users.teste.js
 
 <br>
 5- 
-
 ```
 jest usersid.teste.js
 ```
