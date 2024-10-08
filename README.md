@@ -1,5 +1,5 @@
-<img src="https://github.com/abraao69/Testinho-API-Node-Express-Myql-Websocket/blob/main/logo.png" alt="Logo" width="150" height="100">
-<img src="https://github.com/abraao69/Testinho-API-Node-Express-Myql-Websocket/blob/main/testinho/frontend/src/img/fotocrud.jpg" alt="Descrição da imagem">
+<img src="https://github.com/abraao69/abraao69/blob/main/Navy%20Blue%20Geometric%20Technology%20LinkedIn%20Banner%20(2).png" alt="Logo">
+<img src="https://github.com/abraao69/Testinho-API-Node-Express-Myql-Websocket/blob/main/testinho/frontend/src/img/fotocrud.jpg">
 
 ## Criador do projeto: 
 
