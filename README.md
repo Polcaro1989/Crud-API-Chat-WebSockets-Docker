@@ -7,7 +7,7 @@ Abraão polcaro: devabraao.tech
 
 ## Projeto: 
 
-Testinho ApiRESTfull
+Crud Em Node js+Prisma+Jest-Node-mon+Docker+ApiRestFull+WebSockets+Chat em tempo real.
 
 ## Instalação do Container Docker
   
