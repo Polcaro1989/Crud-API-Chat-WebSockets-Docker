@@ -162,25 +162,21 @@ docker-compose down
 ```
 jest delete.teste.js
 ```
-<br>
 2- 
 ```
 jest update.teste.js
 ```
-<br>
 3- 
 
 ```
 jest post.teste.js
 ```
 
-<br>
 4- 
 ```
 jest users.teste.js
 ```
 
-<br>
 5- 
 ```
 jest usersid.teste.js
