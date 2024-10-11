@@ -139,20 +139,6 @@ jest usersid.teste.js
 
 Desse jeito você conseguirá testar as rotas com êxito .
 
-Redação:
-
-O sucesso vem da autonomia e de uma ampla gama de habilidades.
-
-Projetos de desenvolvimento de software bem-sucedidos exigem habilidades diversas e apropriadas. Este artigo descreve minha jornada para desenvolver uma integração de API RESTful e WebSocket - uma tarefa que enfatiza a autonomia e a interação humana eficaz, bem como habilidades colaborativas, mesmo quando trabalho sozinho.
-
-O projeto começou criando uma API RESTful usando Node.js, React e Express e combinando-a com a funcionalidade interativa exigida pelo projeto de banco de dados MySQL. Garantir um fluxo eficiente entre o objetivo final do projeto e a sua execução real é crucial: o trabalho individual, a definição de objetivos claros e a divisão das tarefas em fases coerentes abrem caminho para um progresso eficiente e organizado. Para garantir a qualidade e confiabilidade da API, o próximo passo é escrever testes automatizados usando Jest para verificar a funcionalidade de roteamento.
-
-Sou habilidoso em identificar rigorosamente os casos de teste necessários e executá-los adequadamente para obter uma implementação completa. Minha experiência inclui a criação de conjuntos de testes abrangentes que abordam uma variedade de cenários, desde sucesso até falha potencial. Um dos maiores desafios encontrados durante o projeto foi a integração da funcionalidade WebSocket na API de mensagens instantâneas. Aproveitei minha vasta experiência e domínio de ferramentas relacionadas, como Node.js e Express, sem ter que fazer pesquisas extensas. Documentei cada etapa do processo com uma abordagem pragmática e determinada e superei obstáculos de forma eficaz para garantir a integração bem-sucedida do WebSocket ao projeto.
-
-Por fim, reconhecendo a importância de uma documentação clara e da manutenção do código, reservei um tempo para criar uma documentação abrangente e incluir comentários relevantes no código-fonte. Isto não só torna o código mais fácil de entender em iterações futuras, mas também demonstra um compromisso com a transparência e a qualidade do trabalho que está sendo realizado.
-Resumindo, minha experiência no desenvolvimento de APIs RESTful por meio da integração WebSocket destacou a importância da autonomia, versatilidade e comunicação eficaz, mesmo em um ambiente de trabalho individual. Enfrentei desafios com determinação e adaptabilidade, alcançando resultados finais que atenderam às expectativas do projeto e demonstrando a importância dessas habilidades em qualquer ambiente de desenvolvimento de software.
-
-
 Reflexão:
 
 Quando encontrei desafios técnicos durante o projeto e considerei possíveis simulações interpessoais, enfatizei a importância da determinação e da comunicação clara. Uma abordagem pragmática e a capacidade de compreender e expressar necessidades são fundamentais para superar obstáculos e manter um ambiente de trabalho colaborativo e produtivo.
