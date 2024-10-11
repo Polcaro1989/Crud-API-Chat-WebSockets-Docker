@@ -7,7 +7,7 @@ Abraão polcaro: devabraao.tech
 
 ## Tecnologias Usadas:
 
- Prisma - Jest - Node - Docker - ApiExpress - WebSockets - Chat - Nodemon
+ Prisma - Jest - Node - Docker - ApiExpress - WebSockets - Chat - Nodemon - Prisma 
  
  
 ## Instalação do Container Docker
