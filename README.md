@@ -92,17 +92,11 @@ Agora você deve estar pronto para usar o Node.js e o Yarn no seu sistema Linux!
 Comece acessando a pasta api e instale as dependencias do docker, 
 
 
-## Obs caso não tenha o docker instalado no seu sistema acesse:
+## Obs: caso não tenha o docker instalado no seu sistema acesse:
 
 ```
 https://github.com/Polcaro1989/Instala-o-Docker-compose/blob/main/README.md
 ```
-
-
-
-
-
-
 
 ## INSTALAÇÂO DO PROJETO API RESTFULL COM NOJE :
 
@@ -148,8 +142,6 @@ jest usersid.teste.js
 <br>
 
 ## Desse jeito você conseguirá testar as rotas com êxito .
-
-
 
 ## Redação:
 
