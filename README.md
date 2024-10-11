@@ -98,7 +98,7 @@ Instalação da ApiRestfull:
 
 comandos utilizados para a instalação :
 
-1- Clone o progeto <br>
+1- Clone o projeto <br>
 2- Entre nas dependências do projeto :/ApiRestful-teste/testinho/frontend e rode o comando yarn .<br>
 3- Entre nas dependências do projeto :/ApiRestful-teste/testinho/api e rode o comando yarn .<br>
 4- Depois disso inicie o servidor com o comando yarn start.<br>
