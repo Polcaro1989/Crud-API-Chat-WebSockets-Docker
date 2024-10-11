@@ -5,7 +5,7 @@
 
 Tecnologias utilizadas: 
 
- Prisma - Jest - Node - Docker - ApiExpress - WebSockets - Chat - Nodemon - Prisma 
+ Prisma - Jest - Node - Docker - Express - WebSockets - Chat - Nodemon - Prisma 
  
  
  Instalação do Container Docker
