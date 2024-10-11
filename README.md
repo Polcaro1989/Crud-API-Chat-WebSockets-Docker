@@ -5,10 +5,11 @@
 
 Abraão polcaro: devabraao.tech
 
-## Projeto: 
+## Tecnologias Usadas:
 
-Crud Em Node js+Prisma+Jest-Node-mon+Docker+ApiRestFull+WebSockets+Chat em tempo real.
-
+ Prisma - Jest - Node - Docker - ApiExpress - WebSockets - Chat - Nodemon
+ 
+ 
 ## Instalação do Container Docker
   
 ## O servidor está configurado com muitos complementos sendo grande parte deles desnecessários.  
@@ -21,125 +22,87 @@ Além disso, esse projeto é bom para personalizar para outros projetos Web tamb
 Build: docker-compose up --build  
 ```
 
+## Intalação do projeto:  
 
-### Instalação de algumas dependências
-```
-sudo apt-get install \
-    apt-transport-https \
-    ca-certificates \
-    curl \
-    gnupg \
-    lsb-release
-  ```
+O primeiro passo e ter o Node e o Yarn instalados no seu sistema.
 
+Em particular utilizo o Node NVM, para intercalar entre as versões mais facilmente.
 
-### 
-### Instalação do Docker
-```
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
-```
-```
-echo \
-  "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
-$(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-```
+Para instalar o Node.js usando o NVM (Node Version Manager) e o Yarn no Linux, siga os passos abaixo:
+
+## Instalar o NVM
+
+Abra o terminal e execute o seguinte comando para baixar e instalar o NVM:
 
 ```
-
-sudo apt-get update
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 ```
+Depois, adicione o NVM ao seu terminal. Para isso, adicione as linhas abaixo ao seu arquivo ~/.bashrc, ~/.bash_profile, ou ~/.zshrc, dependendo do shell que você está usando:
 ```
-sudo apt-get install docker-ce docker-ce-cli containerd.io
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
 ```
-
-Depois de instalado e configurado rode o Docker:
+Em seguida, recarregue o arquivo de configuração:
 ```
-
-sudo service docker start
+source ~/.bashrc  # ou ~/.bash_profile ou ~/.zshrc
 ```
+## Instalar o Node.js
 
-Testar se o serviço Docker está rodando corretamente:
+Agora que o NVM está instalado, você pode instalar a versão do Node.js que desejar. Por exemplo, para instalar a versão mais recente:
+
 ```
-
-sudo docker run hello-world  
+nvm install node
 ```
-
-##
-### Docker-Compose - Instalação e configuração:
-
-OBS: EM ALGUNS CASOS PODE ESTAR NO /usr/bin/docker-compose
+Para instalar uma versão específica (substitua X.X.X pela versão desejada):
 ```
-
-sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+nvm install X.X.X
 ```
+## Instalar o Yarn
+
+Com o Node.js instalado, você pode instalar o Yarn globalmente usando o npm (que é instalado junto com o Node.js):
+
 ```
-
-sudo chmod +x /usr/local/bin/docker-compose
+npm install --global yarn
 ```
+## Verificar as Instalações
+
+Para verificar se o NVM, Node.js e Yarn foram instalados corretamente, execute:
+
 ```
-
-docker-compose --version  
-  ```
-
-##
-### Para usar o Docker sem usar sudo
-```
-
-https://docs.docker.com/engine/install/linux-postinstall/
-  ```
-
-##  
-### Configurar para o fuso horário de São Paulo
-```
-
-sudo timedatectl set-timezone America/Sao_Paulo
-  ```
-
-##
-### Adicionar o repositório do PHP:
-```
-
-sudo add-apt-repository ppa:ondrej/php
-```
-
-##
-### Instalar os pacotes do PHP instalado. Verificar com php version.
-```
-
-sudo apt-get install -y php8.2-cli php8.2-common php8.2-pgsql php8.2-zip php8.2-gd php8.2-mbstring php8.2-curl php8.2-xml php8.2-bcmath
-```
-
-##
-### Install Composer
-```
-
-curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer
-```
+nvm --version
 
 ```
 
-php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-php -r "if (hash_file('sha384', 'composer-setup.php') === 'e21205b207c3ff031906575712edab6f13eb0b361f2085f1f1237b7126d785e826a450292b6cfd1d64d92e6563bbde02') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
-php composer-setup.php
-php -r "unlink('composer-setup.php');"
 ```
+node --version
+
 ```
 
-sudo apt-get install composer
+```
+yarn --version
+
+```
+Esses comandos devem retornar as versões instaladas de cada ferramenta.
+
+Dicas Finais
+Para listar as versões do Node.js instaladas, use nvm ls.
+Para alternar entre versões do Node.js, use nvm use X.X.X.
+Agora você deve estar pronto para usar o Node.js e o Yarn no seu sistema Linux! Se tiver mais dúvidas, é só perguntar.
+Comece acessando a pasta api e instale as dependencias do docker, 
+
+
+## Obs caso não tenha o docker instalado no seu sistema acesse:
+
+```
+https://github.com/Polcaro1989/Instala-o-Docker-compose/blob/main/README.md
 ```
 
-## Comandos:
-Iniciar:  
-```
 
-docker-compose up -d  
-  ```
 
-Parar:  
-```
 
-docker-compose down  
-```
+
+
 
 ## INSTALAÇÂO DO PROJETO API RESTFULL COM NOJE :
 
