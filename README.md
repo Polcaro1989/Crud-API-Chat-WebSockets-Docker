@@ -1,7 +1,9 @@
 <img src="https://github.com/abraao69/abraao69/blob/main/Navy%20Blue%20Geometric%20Technology%20LinkedIn%20Banner%20(2).png" alt="Logo">
 <img src="https://github.com/abraao69/Testinho-API-Node-Express-Myql-Websocket/blob/main/testinho/frontend/src/img/fotocrud.jpg">
 
-Tecnologias Usadas:
+# Crud usuários com chat em tempo real:
+
+Tecnologias utilizadas: 
 
  Prisma - Jest - Node - Docker - ApiExpress - WebSockets - Chat - Nodemon - Prisma 
  
