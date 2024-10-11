@@ -94,8 +94,7 @@ Obs: caso não tenha o docker instalado no seu sistema acesse:
 ```
 https://github.com/Polcaro1989/Instala-o-Docker-compose/blob/main/README.md
 ```
-
-INSTALAÇÂO DO PROJETO API RESTFULL COM NOJE :
+Instalação da ApiRestfull:
 
 comandos utilizados para a instalação :
 
